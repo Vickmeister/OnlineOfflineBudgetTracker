@@ -19,8 +19,6 @@ mongoose.connect(
   process.env.MONGODB_URI || 'mongodb://localhost/budgettracker',
   {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
     useFindAndModify: false
   }
 );
